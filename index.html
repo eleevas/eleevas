@@ -1,15 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="robots" content="noindex" />
-    <meta name="robots" content="noarchive" />
-    <meta name="robots" content="nofollow" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-<h1>It Works!!</h1>
-</body>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>My Portfolio</title>
+        <meta name="description" content="">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+    </head>
+    <body>
+
+        <div class="page-container">
+            <header>
+                <div class="inner">
+                    <a class="logo" href="./index.html" title="Home" rel="nofollow">Luka Ivas</a>
+                    <button id="dark-side-toggle" class="item--action" title="Switch theme"><i class="fa-brands"></i></button>
+                    <nav>
+                        <ul>
+                            <li><a href="./about/index.html" title="About" rel="nofollow">About</a></li>
+                            <li><a href="#selected-work" title="Work" rel="nofollow">Work</a></li>
+                            <li><a href="#contact" title="Contact" rel="nofollow">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section id="home" class="hero">
+                <div class="inner">
+                    <h2>Driven by meeting the needs, and the equilibrium between</h2>
+                    <h1>User's Experience, Design &amp; Business</h1>
+                </div>
+            </section>
+            <main id="content">
+                <div id="selected-work" class="item--projects-widget">
+                    <section class="inner">
+                        <h1>Selected Work</h1>
+                        <nav>
+                            <ul>
+                                <!--
+                                <li>
+                                    <a class="item--card" href="./work/scheduling-app.html" rel="nofollow">
+                                        <figure class="card--thumbnail">
+                                            <img alt="Project thumbnail" src="./images/me.jpg">
+                                        </figure>
+                                        <span class="card--title">Scheduling web app</span>
+                                    </a>
+                                </li>
+                                -->
+                                <li>
+                                    <a class="item--card" href="./work/coupon-site-redesign.html" rel="nofollow">
+                                        <figure class="card--thumbnail">
+                                            <img alt="Project thumbnail" src="./images/project1-th.png">
+                                        </figure>
+                                        <span class="card--title">Coupon site redesign</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="item--card" style="justify-content: center; align-items: center;">
+                                        <h3>Just launched 🎉</h3>
+                                        <span class="card--title" style="color: var(--text__default);">More projects to be uploaded on 2022-08-02.</span>
+                                    </div>
+                                </li>
+                                <!--
+                                <li>
+                                    <a class="item--card" href="./work/business-intelligence-suite.html" rel="nofollow">
+                                        <figure class="card--thumbnail">
+                                            <img alt="Project thumbnail" src="./images/me.jpg">
+                                        </figure>
+                                        <span class="card--title">Business Intelligence</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="item--card" href="./work/corporate-website.html" rel="nofollow">
+                                        <figure class="card--thumbnail">
+                                            <img alt="Project thumbnail" src="./images/me.jpg">
+                                        </figure>
+                                        <span class="card--title">Corporate website</span>
+                                    </a>
+                                </li>
+                                -->
+                            </ul>
+                        </nav>
+                    </section>
+                </div>
+            </main>
+            <footer>
+                <section id="contact">
+                    <div class="item--contact-widget">
+                        <div class="avatar"></div>
+                        <div>
+                            <h3>Let's get in touch</h3>
+                            <ul>
+                                <li><i class="fas fa-paper-plane"></i> <a href="mailto:luka@ivas.me?subject=Hi" rel="nofollow">luka@ivas.me</a></li>
+                                <li><i class="fas fa-mobile-screen-button"></i> <a href="tel:+46732044304" rel="nofollow">+46 73 20 44 304</a></li>
+                                <li><i class="fas fa-house-chimney-window"></i> Malmö, Sweden</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <small>&copy; 2022.</small>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script  src="./js/scripts.js"></script>
+    </body>
 </html>
