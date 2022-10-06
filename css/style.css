@@ -176,7 +176,6 @@ html, body {
     font-family: var(--font__default);
     font-size: 16px;
     font-weight: 400;
-    height: 100%;
     line-height: 1.5;
     font-size: calc(15px + 0.5vw);
     line-height: calc(21px + 0.6vw);
