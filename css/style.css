@@ -109,12 +109,12 @@ rgb(45, 43, 60);
   --outline__default: rgb(237 45 60 / 60%);
   --text__default: rgb(143, 145, 150);
 
-  --header--background__default: rgb(42, 40, 44);
+  --header--background__default: rgb(36, 36, 36);
     --branding__default: rgb(198, 199, 201);
     --search--background__default: rgb(63, 62, 66);
     --search--text__default: rgb(198, 199, 201);
 
---footer--background__default: rgb(0, 0, 0);
+--footer--background__default: rgb(32, 32, 32);
   --footer--color__default: rgb(240, 236, 225);
 
   --sidebar--background__default: rgb(25, 23, 27);
@@ -176,6 +176,7 @@ html, body {
     font-family: var(--font__default);
     font-size: 16px;
     font-weight: 400;
+    height: 100%;
     line-height: 1.5;
     font-size: calc(15px + 0.5vw);
     line-height: calc(21px + 0.6vw);
@@ -200,7 +201,7 @@ body {
 
 p {
   margin-bottom: 1rem;
-  max-width: 70ch;
+  /* max-width: 70ch; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -266,6 +267,11 @@ blockquote {
     margin: .5rem 0 1rem 1rem;
     padding-left: .5em;
 }
+
+  blockquote h1 {
+    color: var(--accent__default);
+  }
+
 ul, ol {
     padding-left: 2rem;
 }
@@ -284,6 +290,7 @@ label {
 
 .page-container {
   display: flex;
+  /* height: 100%; */
   width: 100%;
   flex-direction: column;
 }
@@ -518,7 +525,7 @@ header {
       gap: 1rem;
     }
     .hero h1 {
-      font-size: calc(4.5rem + 1vw);
+      font-size: calc(3.7rem + 1vw);
       font-weight: 700;
       letter-spacing: -0.18rem;
       line-height: 1;
@@ -526,6 +533,11 @@ header {
     }
     .hero h2 {
       margin-bottom: 0;
+    }
+
+    #home h1 {
+      max-width: 18ch;
+      word-break: break-word;
     }
 
   .two--colunns {
@@ -1096,9 +1108,22 @@ header {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
-  width: min(95%%, 70rem);
+  width: min(95%, 70rem);
   margin-inline: auto;
 }
+
+.grid--2-cols {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-inline: auto;
+}
+@media screen and (max-width: 452px) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
   .card--project {
     background-color: lightblue;
     border-radius: 1rem;
@@ -1193,14 +1218,21 @@ header {
         grid-template-columns: 1fr 1fr;
       }
 @media screen and (max-width: 452px) {
-    .item--projects-widget ul {
+    .item--projects-widget ul,
+    main .item--projects-widget ul {
       grid-template-columns: 1fr;
     }
+}
+@media screen and (min-width: 1200px) {
+  main .item--projects-widget ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 footer {
   background-color: var(--footer--background__default);
   color: var(--footer--color__default);
+  margin-top: auto;
   text-align: center;
   width: 100%;
 }
