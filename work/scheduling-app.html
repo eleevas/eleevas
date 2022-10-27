@@ -37,9 +37,50 @@
                 <div class="inner">
                     <section class="two--colunns">
                         <article class="left--column">
-                            <section id="problem-statement">
-                                <h3>The Brief</h3>
-                                <p><strong>ScheduleMe</strong> is a web application created for internal scheduling purposes.</p>
+                            <section>
+                                <h3>Brief</h3>
+                                <p>Human Resources has to manually find a time slot for everyone involved in hiring interviews. Current workflow is tedious and time consuming for HR staff due to back and forth communication.</p>
+                            </section>
+                            <section>
+                                <h4>My role</h4>
+                                <p>As a part of a two-men development team, we get to wear many hats. This can be great in terms that I get to employ different skillsets, but also challenging because there's more things to handle at the same time.</p>
+                                <p>I was responsible for creating the initial IA and features, User Interface &amp; Experience, ideating User Journeys, making interactive pages in HTML + CSS, and receiving constructive feedback.</p>
+                                <p>Victor, a brilliant engineer, developed the backend functionality, and added the javascript magic. He was also in charge of managing the project.</p>
+                                <p>Together, we were constantly exchanging ideas for improvements, tested our product, bugfixed, and held meetings with the stakeholders and users to validate usability.</p>
+                            </section>
+                            <section>
+                                <h4>Tools used</h4>
+                                <div class="item--tools--list">
+                                    <div class="item--tool">
+                                        <img src="../images/tools-figma.svg" alt="Logo" />
+                                        <small>Figma</small>
+                                    </div>
+
+                                    <div class="item--tool">
+                                        <img src="../images/tools-interviews.svg" alt="Logo" />
+                                        <small>User Interview</small>
+                                    </div>
+
+                                    <div class="item--tool">
+                                        <img src="../images/tools-surveys.svg" alt="Logo" />
+                                        <small>User Survey</small>
+                                    </div>
+
+                                    <div class="item--tool">
+                                        <img src="../images/tools-photoshop.svg" alt="Logo" />
+                                        <small>Photoshop</small>
+                                    </div>
+
+                                    <div class="item--tool">
+                                        <img src="../images/tools-illustrator.svg" alt="Logo" />
+                                        <small>Illustrator</small>
+                                    </div>
+
+                                    <div class="item--tool">
+                                        <img src="../images/tools-vscode.svg" alt="Logo" />
+                                        <small>VS Code</small>
+                                    </div>
+                                </div>
                             </section>
                         </article>
                         <article class="right--column">
@@ -57,7 +98,7 @@
                                     <span class="tag">UI / UX design</span>
                                     <span class="tag">Logo</span>
                                     <span class="tag">HTML + CSS</span>
-                                    <span class="tag">Responsive Design system</span>
+                                    <span class="tag">Responsive design system</span>
                                 </p>
                             </div>
                         </article>
@@ -68,39 +109,99 @@
                     <section class="two--colunns">
                         <article class="left--column">
                             <section>
-                                <h3>Problem Statement</h3>
-                                <p>Human Resources has to manually check the availability for everyone involved in hiring interviews (applicants, team leads, HR personel, CEO). This presents an opportunity to come up with a solution that would automate scheduling and eliminate back and forth communication.</p>
+                                <h5>The Problem</h5>
+                                <h2>The product has to fit the needs of two distinct userbases.</h2>
+                                <p>We identified two groups:</p>
+                                    <ul>
+                                        <li><strong>Users</strong> (employees)
+                                            <ul>
+                                                <li>HR Staff</li>
+                                                <li>HR Lead</li>
+                                                <li>Department Team Leads</li>
+                                                <li>CEO</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Candidates</strong> (job applicants).</li>
+                                    </ul>
+                            </section>
+                            <p>The challenge is to provide great UX with two different layouts for all participants in hiring interviews. Since both groups communicate virtually, we have to account for interviews being scheduled in different timezones.</p>
+                        </article>
+                        <article class="right--column">
+                            <div class="item--gallery">
+                                <figure>
+                                    <img src="../images/project2-map.png" alt="Users and Candidates Map">
+                                </figure>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <div class="inner">
+                    <section class="two--colunns">
+                        <article class="left--column">
+                            <section>
+                                <h4>Validating the designs</h4>
+                                <p>In separate <strong>user interviews</strong> with HR Lead and CEO, I tested <strong>Figma prototypes</strong> to check if we're on the same page regarding the workflow and business requirements.</p>
+                                <p>At this stage, it was decided we will remove the option for the Candidates to cancel the meeting, so I continued without those slides.</p>
+                                <p>After positive feedbacks, and apparently no known issues with the workflow, I used the prototypes as guides for creating a responsive <strong>layout page</strong> using HTML and CSS from scratch.</p>
                             </section>
                         </article>
                         <article class="right--column">
-                            <div class="item--gallery" style="display: block;">
+                            <div class="item--gallery">
+                                <figure class="span--square">
+                                    <a href="../images/project2-figma-user.jpg" data-pswp-width="1280" data-pswp-height="960" target="_blank" data-cropped="true" rel="nofollow">
+                                        <img src="../images/project2-figma-user.jpg" alt=""></a>
+                                </figure>
+
+                                <figure class="span--square">
+                                    <a href="../images/project2-figma-candidate.jpg" data-pswp-width="1280" data-pswp-height="960" target="_blank" data-cropped="true" rel="nofollow">
+                                        <img src="../images/project2-figma-candidate.jpg" alt=""></a>
+                                </figure>
+                                <div class="item--gallery--comment">Figma - Users and Candidates</div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+                <div class="inner">
+                    <section class="two--colunns">
+                        <article class="left--column">
+                            <section>
+                                <p>All fonts and colors are defined with CSS variables. In case of the need for drastic appeareance change, this can be done with ease.</p>
+                                <p>I also created a dark theme for this design system. To view the screenshots of layouts on the 
+                                    <span class="show--light"><strong>dark side, press the <i class="fas fa-jedi"></i> "Jedi"</span>
+                                    <span class="show--darkside">light theme, press the <i class="fab fa-empire"></i> "Empire"</span> button in the middle of the header.</strong></p>
+                            </section>
+                            <section>
+                                <h4>Key learning points</h4>
+                                <p>Creating the <strong>design system</strong> early on:</p>
+                                    <ul>
+                                        <li><p>Provides the opportunity to test the interaction of different elements, and fix the issues on the spot.</p></li>
+                                        <li><p>Enables rapid delivery of different layouts, in a form of interactive pages, for user testing.</p></li>
+                                        <li><p>Design system can be re-used in other projects with minimal changes.</p></li>
+                                    </ul>
+                            </section>
+                            <section>
+                                <p>Taking into account recommendations from Jakob Nielsen's <a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/" target="_blank" rel="nofollow">article</a>, <em>"Why You Only Need to Test with 5 Users"</em>, noting that it's possible to learn about <strong>85% of errors, problems, and behavior</strong> from the <strong>first 5 users</strong>. Five users would bring enough data and inputs to uncover issues with our design. It's easier, cheaper and more time / cost efficient to conduct several rounds of testing with a smaller group in qualitative research.</p>
+                            </section>
+                        </article>
+                        <article class="right--column">
+                            <div class="item--gallery light-gallery">
                                 <figure>
-                                    <a style="padding-bottom: 0;" href="../images/project1-1.jpg" data-pswp-width="1080" data-pswp-height="588" target="_blank" data-cropped="true">
-                                    <img src="../images/project1-1.jpg" alt="Old Design" style="position: relative;">
+                                    <a class="thumbnail--big-square" href="../images/project2-layout.png" data-pswp-width="1905" data-pswp-height="6279" target="_blank" data-cropped="true">
+                                        <img src="../images/project2-layout.png" alt="Layout">
                                     </a>
                                 </figure>
-                                <div class="item--gallery--comment">Old Design</div>
+                                <div class="item--gallery--comment">Screenshot of HTML layout page</div>
                             </div>
-                        </article>
-                    </section>
-                </div>
 
-                <div class="inner">
-                    <section class="two--colunns">
-                        <article class="left--column">
-                            <section>
-                                <h3>Discovery</h3>
-                                <p>Human Resources has to manually check the availability for everyone involved in hiring interviews (applicants, team leads, HR personel, CEO). This presents an opportunity to come up with a solution that would automate scheduling and eliminate back and forth communication.</p>
-                            </section>
-                        </article>
-                        <article class="right--column">
-                            <div class="item--gallery" style="display: block;">
+                            <div class="item--gallery dark-gallery">
                                 <figure>
-                                    <a style="padding-bottom: 0;" href="../images/project1-1.jpg" data-pswp-width="1080" data-pswp-height="588" target="_blank" data-cropped="true">
-                                    <img src="../images/project1-1.jpg" alt="Old Design" style="position: relative;">
+                                    <a class="thumbnail--big-square" href="../images/dark-project2-layout.png" data-pswp-width="1905" data-pswp-height="6279" target="_blank" data-cropped="true">
+                                        <img src="../images/dark-project2-layout.png" alt="Layout">
                                     </a>
                                 </figure>
-                                <div class="item--gallery--comment">Old Design</div>
+                                <div class="item--gallery--comment">Screenshot of HTML layout page</div>
                             </div>
                         </article>
                     </section>
@@ -110,51 +211,24 @@
                     <section class="two--colunns">
                         <article class="left--column">
                             <section>
-                                <h3>The Solution</h3>
-                                <ul>
-                                    <li>
-                                        <p>Making it easier for the users to navigate through the site helps them to do their tasks quicker.</p>
-                                    </li>
-                                    <li>
-                                        <p>Distinctive logo promotes brand awareness.</p>
-                                    </li>
-                                    <li><p>A lot of people get to coupon deals through email campaigns on their phones, so it's important to provide good mobile experience.</p>
-                                    </li>
-                                    <li><p>Having a color scheme that makes the user feel comfortable, helps with the overall experience, and could make tasks feel less frustrating.</p>
-                                    </li>
-                                </ul>
+                                <h3>Qualitative Research</h3>
+                                <p>Once we had all interactive layouts ready, it was time for qualitative user testing. We surveyed a small group of users in several rounds, and gathered their feedback.</p>
+                                <h4>Surveyed audience</h4>
+                                <p>The audience consisted of 5 people, a mix of men and women, from 23 to 46 years of age. The survey consisted of several tasks, for example:</p>
+                                <p><h5>"Describe how would you change your timezone."</h5>
+                                    <blockquote><em>"Changing the time zone was simple. In the settings window I choose the time zone from the dropdown menu and clicked on Save Profile."</em></blockquote>
+                                    or
+                                </p>
+                                <p><h5>"How would you add a new role?"</h5>
+                                <blockquote><em>"By finding the Members windows and scrolling down to Manage Roles I was able to type the new role. Then I clicked on the + button and I successfully aded a new role. Adding a role was simple."</em></blockquote></p>
+                               <p>We discovered a pattern on the Availability page.</p> 
+                               <div class="item--highlighted-block">Setting availability is an expected usecase that Users would do once per week or month. Because <strong>2 out of 5</strong> users were found to be confused, the current workflow needed to be fixed.</div>
+                                <p><blockquote><em>"Had confusion with saving availability; first I didn’t click save, second time I didn’t click + to add availability so it didn’t get saved. Perhaps some short instructions would make sure to avoid confusion."</em></blockquote>
+                                <blockquote><em>"I found the Availability window and selected the time and then I clicked on the Save button below, but it wasnt saved. So on the second try I realized I need to click on the + button before clicking Save. From there, adding the other availability time was simple. So it might be good to add a little instruction line."</em></blockquote>
+                            </p>
                             </section>
                         </article>
                         <article class="right--column">
-                            <div class="pswp-docs__home-gallery item--gallery" id="item--gallery-project">
-
-                                <figure class="pswp-docs__home-gallery-item">
-                                    <a style="padding-bottom:100%" href="../images/project1-2.jpg" data-pswp-width="2000" data-pswp-height="1159" target="_blank" data-cropped="true" rel="nofollow">
-                                        <img src="../images/project1-2.jpg" alt="New Design - Homepage"></a>
-                                </figure>
-
-                                <figure class="pswp-docs__home-gallery-item">
-                                    <a style="padding-bottom:100%" href="../images/project1-3.jpg" data-pswp-width="2000" data-pswp-height="1159" target="_blank" data-cropped="true" rel="nofollow">
-                                        <img src="../images/project1-3.jpg" alt="New Design - Categories"></a>
-                                </figure>
-                                
-                                <figure class="pswp-docs__home-gallery-item">
-                                    <a style="padding-bottom:100%" href="../images/project1-4.jpg" data-pswp-width="2000" data-pswp-height="1159" target="_blank" data-cropped="true" rel="nofollow">
-                                        <img src="../images/project1-4.jpg" alt="New Design - Stores"></a>
-                                </figure>
-
-                                <figure class="pswp-docs__home-gallery-item">
-                                    <a style="padding-bottom:100%" href="../images/project1-5.jpg" data-pswp-width="2000" data-pswp-height="1159" target="_blank" data-cropped="true" rel="nofollow">
-                                        <img src="../images/project1-5.jpg" alt="New Design - Coupon details"></a>
-                                </figure>
-
-                                <figure class="pswp-docs__home-gallery-item">
-                                    <a style="padding-bottom:100%" href="../images/project1-6.jpg" data-pswp-width="1500" data-pswp-height="1500" target="_blank" data-cropped="true" rel="nofollow">
-                                        <img src="../images/project1-6.jpg" alt="New Design - Mobile homepage"></a>
-                                </figure>
-                                
-                                <div class="item--gallery--comment">New Design</div>
-                            </div>
                         </article>
                     </section>
                 </div>
@@ -163,12 +237,245 @@
                     <section class="two--colunns">
                         <article class="left--column">
                             <section>
-                                <h3>The Conclusion</h3>
-                                <p>Although the website owner couldn't provide before and after metrics, he did say that several people reached out to him commenting how they liked the new design. I was happy to hear that because that was my goal for this projects.</p>
+                                <h5>The Problem</h5>
+                                <h2>How can we avoid users' confusion when setting their availability?</h2>
+                                <p>In additional rounds of surveys, we were testing out couple of ideas based on the feedback we received. 
+                                    <blockquote><em>"Currently availability can only be deleted, perhaps it would be useful to be able to edit it."</em></blockquote>
+                                    <blockquote><em>"Currently availability can only be added per day, perhaps it would be useful to be able to add for multiple days same availability"</em></blockquote>
+                                </p>
+                                <p>Based upon the results, we changed form submission to include fields without the need to press the "+" button, we changed the look of this button and we added the ability to "Clone previous week". This is a one click solution for typical usecase when availability doesn't change frequently. If there's a need to add changes, it can easily be done by adjusting time entries.</p>
+                            </section>
+                            <section>
+                                <h4>Key learning points</h4>
+                                <p>Qualitative research with small sample of 3-5 users can uncover issues early in the process. It's cost-effective, fast, and easy way to validate design concepts. User survey proved that there was a design bias and we were able to address the issue and re-test.</p>
                             </section>
                         </article>
                         <article class="right--column">
 
+                            <section>
+                                <div class="item--gallery light-gallery">
+                                    <figure class="span--square">
+                                        <a href="../images/project2-user-3a.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-3a.jpg" alt=""></a>
+                                    </figure>
+                                    <figure class="span--square">
+                                        <a href="../images/project2-user-4a.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-4a.jpg" alt=""></a>
+                                    </figure>
+                                    <figure class="span--square">
+                                        <a href="../images/project2-user-3b.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-3b.jpg" alt=""></a>
+                                    </figure>
+                                    <figure class="span--square">
+                                        <a href="../images/project2-user-4b.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-4b.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="item--gallery--comment">Availability - discarded tested versions</div>
+                                </div>
+                                <div class="item--gallery dark-gallery">
+                                    <figure class="span--square">
+                                        <a href="../images/dark-project2-user-3a.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-3a.jpg" alt=""></a>
+                                    </figure>
+                                    <figure class="span--square">
+                                        <a href="../images/dark-project2-user-4a.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-4a.jpg" alt=""></a>
+                                    </figure>
+                                    <figure class="span--square">
+                                        <a href="../images/dark-project2-user-3b.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-3b.jpg" alt=""></a>
+                                    </figure>
+                                    <figure class="span--square">
+                                        <a href="../images/dark-project2-user-4b.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-4b.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="item--gallery--comment">Availability - discarded tested versions</div>
+                                </div>
+                            </section>
+                        </article>
+                    </section>
+                </div>
+
+                <div class="inner">
+                    <section class="two--colunns">
+                        <article class="left--column">
+                            <section>
+                                <h3>Conclusion</h3>
+                                <p>For the <strong>Candidates</strong> invited to the interviews, we've provided a way to schedule the interview when they are best prepared.</p>
+                                <p>By optimizing <strong>Users</strong> workflow, we're saving, on average, 21 hours monthly for employees involved in scheduling interviews.</p>
+                                <div class="item--highlighted-container">
+                                    <div class="item--highlighted-block">
+                                        <div><strong>3 people</strong> (2 Users, 1 Candidate)</div>
+                                        <small>Typical hiring interview (HR Staff, Department Lead, Candidate)</small>
+                                    </div>
+                                    
+                                    <div class="item--highlighted-block">
+                                        <div><strong>10 minutes / interview</strong></div>
+                                        <small>Average time spent on fixing a timeslot between 2 Users</small>
+                                    </div>
+                                    <div class="item--highlighted-block">
+                                        <div><strong>30 interviews</strong></div>
+                                        <small>Average per week</small>
+                                    </div>
+                                    <div class="item--highlighted-block">
+                                        <div><strong>1260 minutes / month</strong></div>
+                                        <small>Users time saved</small>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <h3>Next Steps</h3>
+                                <p>Further qualitative tests will be conducted with the Users and Candidates to discover improvement opportunities.</p>
+                            </section>
+                            <section>
+                                <p>Thank you for reading.</p>
+                            </section>
+                        </article>
+                        <article class="right--column">
+                            <section>
+                                <div class="item--gallery light-gallery">
+                                    <figure>
+                                        <a href="../images/project2-candidate-1.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-candidate-1.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-candidate-2.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-candidate-2.jpg" alt=""></a>
+                                    </figure>
+                                    
+                                    <figure>
+                                        <a href="../images/project2-candidate-3.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-candidate-3.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-candidate-4.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-candidate-4.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="item--gallery--comment">Candidates view</div>
+                                </div>
+
+                                <div class="item--gallery dark-gallery">
+                                    <figure>
+                                        <a href="../images/dark-project2-candidate-1.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-candidate-1.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-candidate-2.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-candidate-2.jpg" alt=""></a>
+                                    </figure>
+                                    
+                                    <figure>
+                                        <a href="../images/dark-project2-candidate-3.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-candidate-3.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-candidate-4.jpg" data-pswp-width="1500" data-pswp-height="1122" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-candidate-4.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="item--gallery--comment">Candidates view</div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="item--gallery light-gallery">
+                                    <figure class="span--square">
+                                        <a href="../images/project2-user-1.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-1.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-user-2.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-2.jpg" alt=""></a>
+                                    </figure>
+                                    
+                                    <figure>
+                                        <a href="../images/project2-user-3.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-3.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-user-4.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-4.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-user-5.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-5.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-user-6.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-6.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-user-7.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-7.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-user-8.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-8.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/project2-user-9.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/project2-user-9.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="item--gallery--comment">Users view</div>
+                                </div>
+
+                                <div class="item--gallery dark-gallery">
+                                    <figure class="span--square">
+                                        <a href="../images/dark-project2-user-1.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-1.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-user-2.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-2.jpg" alt=""></a>
+                                    </figure>
+                                    
+                                    <figure>
+                                        <a href="../images/dark-project2-user-3.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-3.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-user-4.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-4.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-user-5.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-5.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-user-6.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-6.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-user-7.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-7.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-user-8.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-8.jpg" alt=""></a>
+                                    </figure>
+
+                                    <figure>
+                                        <a href="../images/dark-project2-user-9.jpg" data-pswp-width="1500" data-pswp-height="1544" target="_blank" data-cropped="true" rel="nofollow">
+                                            <img src="../images/dark-project2-user-9.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="item--gallery--comment">Users view</div>
+                                </div>
+                            </section>
                         </article>
                     </section>
                 </div>
@@ -211,7 +518,7 @@
             <footer>
                 <section id="contact">
                     <div class="item--contact-widget">
-                        <div class="avatar"></div>
+                        <a href="../about/index.html" title="Read more about me" rel="nofollow" class="avatar"></a>
                         <div>
                             <h3>Let's get in touch</h3>
                             <ul>
